@@ -108,8 +108,53 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
         </code>
       </td>
       <td>
-       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">Link</a>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/index">Link</a>
       </td>
     </tr>  
+    <tr>
+      <td>8</td>
+      <td align="center">
+        .lastIndexOf()
+      </td>
+      <td align="left">
+        <code>
+          'canal'.lastIndexOf('a');     // returns 3
+          'canal'.lastIndexOf('a', 2);  // returns 1
+          'canal'.lastIndexOf('a', 0);  // returns -1
+          'canal'.lastIndexOf('x');     // returns -1
+          'canal'.lastIndexOf('c', -5); // returns 0
+          'canal'.lastIndexOf('c', 0);  // returns 0
+          'canal'.lastIndexOf('');      // returns 5
+          'canal'.lastIndexOf('', 2);   // returns 2
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf">Link</a>
+      </td>
+    </tr> 
+    <tr>
+      <td>9</td>
+      <td align="center">
+        .match()
+      </td>
+      <td align="left">
+        <code>
+          var str = 'For more information, see Chapter 3.4.5.1';
+          var re = /see (chapter \d+(\.\d)*)/i;
+          var found = str.match(re);
+          
+          console.log(found);
+           // logs [ 'see Chapter 3.4.5.1',
+           // 'Chapter 3.4.5.1',
+           // '.1',
+           // index: 22,
+           // input: 'For more information, see Chapter 3.4.5.1' ]
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match">Link</a>
+      </td>
+    </tr>
+    
   </tbody>
 </table>  
