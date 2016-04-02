@@ -256,7 +256,6 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr">Link</a>
       </td>
-    </tr>  
-    
+    </tr> 
   </tbody>
 </table>  
