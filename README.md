@@ -81,8 +81,6 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       <td>6</td>
       <td align="center">
         .includes()
-        <br>
-        <strong>str.includes(searchString[, position])</strong>
       </td>
       <td align="left">
         <code>
@@ -92,6 +90,20 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">Link</a>
       </td>
-    </tr>    
+    </tr> 
+    <tr>
+      <td>6</td>
+      <td align="center">
+        .includes()
+      </td>
+      <td align="left">
+        <code>
+          'Blue Whale'.includes('blue'); // returns false
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">Link</a>
+      </td>
+    </tr>  
   </tbody>
 </table>  
