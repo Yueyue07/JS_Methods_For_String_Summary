@@ -92,13 +92,19 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       </td>
     </tr> 
     <tr>
-      <td>6</td>
+      <td>7</td>
       <td align="center">
-        .includes()
+        .indexOf()
       </td>
       <td align="left">
         <code>
-          'Blue Whale'.includes('blue'); // returns false
+          'Blue Whale'.indexOf('Blue');     // returns  0
+          'Blue Whale'.indexOf('Blute');    // returns -1
+          'Blue Whale'.indexOf('Whale', 0); // returns  5
+          'Blue Whale'.indexOf('Whale', 5); // returns  5
+          'Blue Whale'.indexOf('', 9);      // returns  9
+          'Blue Whale'.indexOf('', 10);     // returns 10
+          'Blue Whale'.indexOf('', 11);     // returns 10
         </code>
       </td>
       <td>
