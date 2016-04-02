@@ -155,6 +155,22 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match">Link</a>
       </td>
     </tr>
+    <tr>
+      <td>10</td>
+      <td align="center">
+        .repeat()
+      </td>
+      <td align="left">
+        <code>
+          'abc'.repeat(1);    // 'abc'
+          'abc'.repeat(2);    // 'abcabc'
+          'abc'.repeat(3.5);  // 'abcabcabc' (count will be converted to integer)
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat">Link</a>
+      </td>
+    </tr>
     
   </tbody>
 </table>  
