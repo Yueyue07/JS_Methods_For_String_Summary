@@ -219,6 +219,23 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice">Link</a>
       </td>
     </tr>
+    <tr>
+      <td>14</td>
+      <td align="center">
+        .split()
+      </td>
+      <td align="left">
+        <code>
+          var names = 'Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand ';
+          var re = /\s*;\s*/;
+          var nameList = names.split(re);
+          console.log(nameList); // ["Harry Trump", "Fred Barney", "Helen Rigby", "Bill Abel", "Chris Hand "]
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split">Link</a>
+      </td>
+    </tr>    
     
   </tbody>
 </table>  
