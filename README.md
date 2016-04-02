@@ -171,6 +171,22 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat">Link</a>
       </td>
     </tr>
+    <tr>
+      <td>11</td>
+      <td align="center">
+        .replace()
+      </td>
+      <td align="left">
+        <code>
+          var str = 'Twas the night before Xmas...';
+          var newstr = str.replace(/xmas/i, 'Christmas');
+          console.log(newstr);  // Twas the night before Christmas...
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Link</a>
+      </td>
+    </tr>
     
   </tbody>
 </table>  
