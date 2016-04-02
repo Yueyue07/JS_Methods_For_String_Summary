@@ -188,7 +188,7 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       </td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>12</td>
       <td align="center">
         .search()
       </td>
@@ -200,6 +200,23 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       </td>
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search">Link</a>
+      </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td align="center">
+        .slice()
+      </td>
+      <td align="left">
+        <code>
+          var str1 = 'The morning is upon us.';
+          var str2 = str1.slice(4, -2);
+          
+          console.log(str2); // OUTPUT: morning is upon u
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice">Link</a>
       </td>
     </tr>
     
