@@ -187,6 +187,28 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Link</a>
       </td>
     </tr>
+    <tr>
+      <td>11</td>
+      <td align="center">
+        .search()
+      </td>
+      <td align="left">
+        <code>
+          function testinput(re, str) {
+            var midstring;
+            if (str.search(re) != -1) {
+              midstring = ' contains ';
+            } else {
+              midstring = ' does not contain ';
+            }
+            console.log(str + midstring + re);
+          }
+        </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search">Link</a>
+      </td>
+    </tr>
     
   </tbody>
 </table>  
