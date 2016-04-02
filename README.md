@@ -79,11 +79,13 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
     </tr> 
     <tr>
       <td>6</td>
-      <td align="center">.includes()</td>
+      <td align="center">
+        .includes()
+        <br>
+        <strong>str.includes(searchString[, position])</strong>
+      </td>
       <td align="left">
         <code>
-          <strong>str.includes(searchString[, position])</strong>
-          <br>
           'Blue Whale'.includes('blue'); // returns false
         </code>
       </td>
