@@ -194,15 +194,8 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
       </td>
       <td align="left">
         <code>
-          function testinput(re, str) {
-            var midstring;
-            if (str.search(re) != -1) {
-              midstring = ' contains ';
-            } else {
-              midstring = ' does not contain ';
-            }
-            console.log(str + midstring + re);
-          }
+          'ab'.search('a'); //0
+          'ab'.search('b'); //1
         </code>
       </td>
       <td>
