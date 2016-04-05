@@ -108,7 +108,7 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
         </code>
       </td>
       <td>
-       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/index">Link</a>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf">Link</a>
       </td>
     </tr>  
     <tr>
