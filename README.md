@@ -74,7 +74,7 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
         </code>
       </td>
       <td>
-       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWidth">Link</a>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith">Link</a>
       </td>
     </tr> 
     <tr>
