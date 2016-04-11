@@ -63,7 +63,7 @@ Here is the summary of String Methods in JavaScript with the purpose for your qu
     </tr>
     <tr>
       <td>5</td>
-      <td align="center">.endsWidth()</td>
+      <td align="center">.endsWith()</td>
       <td align="left">
         <code>
           var str = 'To be, or not to be, that is the question.';
